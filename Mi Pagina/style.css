@@ -1,0 +1,603 @@
+body{
+    margin: 0;
+    position: relative;
+    min-height: 100vh;
+}
+.footer{
+    position:absolute;
+    left: 0;
+    bottom: 0;
+    background: #ffc0cb;
+    width: 100%;
+    height: 2.5em;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.txtfooter{
+    text-decoration: none;
+    color: black;
+}
+.txtfooter:hover{
+    color: white;
+}
+
+.headerA{
+    background: rgb(255,192,203);
+    width: 100%;
+    height: 2.5em;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.email{
+    width: 1.3em;
+    margin-right: 0.2em;
+}
+
+.telefono{
+    width: 1.1em;
+    margin-right: 0.2em;
+}
+
+.emailinfo{
+    margin-right: 2em;
+}
+.redes{
+    flex-direction: row;
+    display: flex;
+}
+
+.instagram{
+    width: 1.5em;
+    transition: all 0.2s ease-in-out;
+    margin-right: 0.2em;
+}
+.instagram:hover{
+    text-decoration: none;
+    font-size: large;
+}
+
+.facebook{
+    width: 1.5em;
+    transition: all 0.2s ease-in-out;
+    
+}
+.facebook:hover{
+    text-decoration: none;
+    font-size: large;
+}
+.redes{
+    margin-left: 80em;
+}
+
+.txtheader{
+    text-decoration: none;
+    color: black;
+    transition: all 0.2s ease-in-out;
+}
+
+.txtheader:visited{
+    text-decoration: none;
+    color: black;
+}
+
+.txtheader:hover{
+    text-decoration: none;
+    color: #808080;
+    font-size: large;
+}
+
+.headerB{
+    background: rgb(0, 0, 0);
+    width: 100%;
+    height: 5em;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.fondologo{
+    width: 4.2em;
+    height: 4.2em;
+    background-color: white;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    width: 3em;
+    
+}
+
+
+.buscador{
+    width: 1.4em;
+    transition: all 0.2s ease-in-out;
+}
+
+.buscar{
+    width: 3em;
+    height: 4em;
+    background-color: black;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.buscar{
+    background-color: black;
+    width: 8em;
+    display: flex;
+}
+
+.buscar input{
+    flex: 1;
+    outline: none;
+    border: none;
+    background-color: black;
+    padding: 0%;
+    color: white;
+    width: 5em;
+    padding-left: 0.8em;
+}
+
+.buscar button{
+    background-color: black;
+    border: none;
+    outline: none;
+    padding: 0%;
+
+}
+
+.carrito{
+    width: 1.8em;
+    transition: all 0.2s ease-in-out;
+} 
+
+.usuario{
+    width: 1.5em;
+    transition: all 0.2s ease-in-out;
+}
+
+.lista{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.itemlista{
+    display: inline-block;
+    margin-inline: 2em;
+    width: 6em;
+}
+
+.menu{
+    margin-left: 25em;
+    margin-right: 25em;
+    
+}
+
+.itemmenu{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: all 0.2s ;
+    
+}
+
+.itemmenu:hover{
+    text-decoration: none;
+    color: white;
+    background-color: pink;
+    border-radius: 12%;
+    padding: 0.5em;
+}
+
+.iconos{
+    margin-left: 2em;
+}
+
+
+.buscador:hover{
+    text-decoration: none;
+    font-size: large;
+}
+.carrito:hover{
+    text-decoration: none;
+    font-size: large;
+}
+
+.usuario:hover{
+    text-decoration: none;
+    font-size: large;
+}
+
+.presentacion{
+    width: 100%;
+    height: 35em;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #dedede;
+    
+}
+
+
+.imgpresentacion{
+    width: 40em;
+    height: 100%;
+    
+}
+
+.txtpresentacion{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 100%;
+    margin-top: 20em;
+}
+
+.cajapresentacion{
+    width: 100em;
+    height: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10em;
+}
+
+.productos{
+    width: 100%;
+    height: 50em;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.txtproductos{
+    width: 14em;
+    height: 5em;
+    font-size: 1.6em;
+    margin-top: 2em;
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.producto1{
+    display: table-column-group;
+    width: 22em;
+    height: 100%;
+    margin-inline: 5em;
+    background-color: rgb(193, 254, 234);
+    padding: 1em;
+    border-radius: 4%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: all 0.5s ;
+}
+
+.producto1:hover{
+    background-color: rgb(116, 250, 207);
+    font-size: 1.1em;
+}
+
+.menuproductos{
+    width: 100%;
+    height: 30em;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgproducto{
+    width: 20em;
+    height: 20em;
+    margin-top: 1em;
+    border-radius: 3%;
+    margin-bottom: 1em;
+    
+}
+
+.tituloproducto{
+    font-size: 1.5em;
+    font-style: bold;
+}
+
+
+.caracteristicasproducto{
+    border-style:hidden;
+    border-radius: 0.5em;
+    border-color: none;
+}
+
+
+.acercade{
+    width: 100%;
+    height: 30em;
+    background-color: #dedede;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.acercadetxt{
+    width: 32em;
+    margin-right: 2em;
+}
+.logoacercade{
+    width: 10em;
+}
+.fondologoacercade{
+    background-color: gray;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 14em;
+    height: 14em;
+}
+
+.serviciosmenu{
+    width: 100%;
+    height: 28em;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.servicios{
+    display: table-row-group;
+    width: 23em;
+    height: 15em;
+    padding: 1em;
+    margin-inline: 5em;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: all 0.5s ;
+    border-radius: 4%;
+}
+
+.servicios:hover{
+    background-color: #ffc0cb;
+}
+
+.serviciosimg{
+    width: 7em;
+    height: 6em;
+    margin-top: 1em;
+}
+
+.serviciostxt{
+    width: 100%;
+    font-size: 1.8em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.txtservicios{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 5em;
+    font-size: 3em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.ubicacion{
+    width: 125em;
+    height: 28em;
+    border-style: hidden;
+}
+
+.boxubicacion{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.imgcontacto{
+    width: 6em;
+    height: 6em;
+    margin-top: 1em;
+}
+.imgcontactoemail{
+    width: 8em;
+    height: 6em;
+    margin-top: 1em;
+}
+
+.contacto{
+    width: 100%;
+    height: 28em;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.contactotxt{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 3em;
+    font-size: 3em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #dedede;
+}
+.contactotxt2{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 1em;
+    font-size: 3em;
+    margin-top: 2em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.boxcontacto{
+    display: table-row-group;
+    width: 20em;
+    height: 13em;
+    padding: 1em;
+    margin-inline: 5em;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: all 0.5s ;
+    border-radius: 4%;
+}
+
+.boxcontacto:hover{
+    background-color: #ffc0cb;
+}
+
+@media all and (max-width: 600px){
+    div{
+        width:100%;
+        height:auto;
+        margin-left:10px;
+    }
+}
+
+
+.login-container {
+    width: 300px;
+    padding: 16px;
+    background-color: #fff;
+    margin: 100px auto;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
+    border-radius: 0.5em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.login-container h1 {
+    text-align: center;
+    color: black;
+    margin-bottom: 24px;
+}
+
+.login-container label {
+    display: block;
+    margin-bottom: 4px;
+}
+
+.login-container input {
+    width: 100%;
+    padding: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+.login-container button {
+    width: 100%;
+    padding: 8px;
+    background-color: #ffc0cb;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.login-container button:hover{
+    transition: all 0.2s ease;
+    font-size: 1.1em;
+    background-color: #f89dac;
+}
+
+.login-container a {
+    text-decoration: none;
+    color: black;
+    
+}
+
+.tabla-productos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+.tabla-productos button {
+    width: 100%;
+    padding: 8px;
+    background-color: #ffc0cb;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.producto {
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 10px;
+    text-align: center;
+    border-radius: 0.5em;
+}
+
+.producto:hover{
+    background-color: rgb(206, 206, 206);
+    transition: all 0.2s ease-in-out;
+}
+
+.tabla-productos button:hover{
+    transition: all 0.2s ease;
+    font-size: 1.1em;
+}
+
+.producto img {
+    max-width: 20em;
+    height: auto;
+    border-radius: 0.5em;
+}
+
+.menuproducto{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 4em;
+    padding-top: 1em;
+}
+
+nav {
+    width: 20em;
+    height: 87em;
+    background-color: white;
+    margin-right: 1em;
+    border-right-style: solid;
+    border-color: #808080;
+    }
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
